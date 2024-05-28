@@ -65,11 +65,15 @@ Once the prerequisites have been installed, you can launch the next section via 
 # Clone the repo
 git clone https://github.com/JoLeClown/Rf_Hiearchique.git
 cd RF_Hiearchique
+
+# Create a new python environnement with conda  
 conda create --name Hiclass python=3.9
 conda activate Hiclass
+
 # Prepare pip
 conda install pip
 pip install --upgrade pip
+
 # Install requirements
 pip install -r requirements_envs.txt
 
