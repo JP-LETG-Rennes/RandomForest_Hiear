@@ -19,9 +19,9 @@ Provided evaluation metrics are : Hierarchical precision, recall, and F1-score f
 Weighted precision, recall, and F1-score for evaluation of model performance at each hierarchical level;
 Producer’s and User’s accuracy given for each class at each level, along with the confusion matrix and overall accuracy for each level.
 
-Features importance are calculated using SHAP values as recommended in the Hiclass package documentation (...).
+Features importance are calculated using SHAP values as recommended in the Hiclass package documentation (Lundberg, Scott M and Lee, Su-In, A Unified Approach to Interpreting Model Predictions, Advances in Neural Information Processing Systems, 30, p 4765-4774, Curran Associates Inc., 2017, available at : http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf) 
 
-The resulting model is saved as a .sav file using pickle (...) for later use.
+The resulting model is saved as a .sav file using pickle (Van Rossum, G. (2020). The Python Library Reference, release 3.8.2. Python Software Foundation.) for later use.
 
 The classified raster is saved in integer format, along with a .csv class dictionary associating each integer value in the raster to its class as given in the training dataset.
 
@@ -82,14 +82,14 @@ pip install -r requirements_envs.txt
 
 Getting Started
 ---------------
-If Use Notebook:
+If Using Notebook:
 
       1. Download build from source.
       2. Activate Conda Environnement Hiclass
       3. Launching jupyter notebook
       4. Lauching .ipynb
 
-If Use Terminal:
+If Using Terminal:
 
       1. Download build from source. 
       2. Activate Conda Environnement Hiclass
@@ -102,7 +102,7 @@ Remerciements
 
 Citation
 ---------
-If you use this software package, please cite our paper:
+If you use this script, please cite our paper:
 
 ```
 @misc{joleclown,
