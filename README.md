@@ -39,6 +39,7 @@ Git Windows:
 
       #For Windows distribution, you can install with this link :
       https://git-scm.com/download/win
+We recommmend to choose the Standalone Installer
 
 Git Linux (Debian/Ubuntu):
 
