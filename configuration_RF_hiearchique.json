@@ -1,0 +1,14 @@
+{
+  "df_path": "/home/adr2.local/pellen_j/Laurence_HubertMOY/transfer_7197772_files_a25984c3/Calupeyre_compil_all_pred_value.csv",
+  "raster_path": "/home/adr2.local/pellen_j/Laurence_HubertMOY/transfer_7197772_files_a25984c3/test/Calupeyre_variables_pred.tif",
+  "raster_path2":"/home/adr2.local/pellen_j/Laurence_HubertMOY/transfer_7197772_files_a25984c3/test/Calupeyre_variables_pred_.tif",
+  "outraster" : "/home/adr2.local/pellen_j/Laurence_HubertMOY/transfer_7197772_files_a25984c3/test/classif.tif",
+  "classdicpath" : "/home/adr2.local/pellen_j/Laurence_HubertMOY/transfer_7197772_files_a25984c3/test/class_dict.csv",
+  "listlabel" : ["niv1", "niv2", "niv3"],
+  "geopakg_out" : "/home/adr2.local/pellen_j/Laurence_HubertMOY/transfer_7197772_files_a25984c3/test/Calupeyre_pred_value.gpkg",
+  "sep" : ";",
+  "decimal" : ","
+}
+
+
+
