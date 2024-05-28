@@ -28,7 +28,7 @@ The classified raster is saved in integer format, along with a .csv class dictio
 Installation
 -------------
 
-For ease of use, we recommend that you first install git and Anaconda.
+For ease of use, we recommend that you first install Git and Anaconda.
 
 Pre-requis:
 
