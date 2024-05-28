@@ -25,6 +25,35 @@ The resulting model is saved as a .sav file using pickle (...) for later use.
 
 The classified raster is saved in integer format, along with a .csv class dictionary associating each integer value in the raster to its class as given in the training dataset.
 
+Installation
+-------------
+
+For ease of use, we recommend that you first install git.
+
+Pre-requis:
+
+      Git
+      Anaconda or miniconda
+
+Windows:
+
+      #For Windows distribution, you can install with this link :
+      https://git-scm.com/download/win
+
+Linux (Debian/Ubuntu):
+
+      # You can install git with this command:
+      sudo apt install git-all
+      
+Linux (Fedora):
+      
+      # You can install git with this command:
+      sudo dnf install git-all
+
+
+...
+...
+
 
 
 Library Dependency
