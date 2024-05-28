@@ -59,6 +59,7 @@ Anaconda:
 
 Library Dependency
 ---------------
+Once the prerequisites have been installed, you can launch the next section via Anaconda Prompt
 
 ```
 # Clone the repo
