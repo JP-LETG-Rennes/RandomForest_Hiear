@@ -23,7 +23,10 @@ Features importance are calculated using SHAP values as recommended in the Hicla
 
 The resulting model is saved as a .sav file using pickle (Van Rossum, G. (2020). The Python Library Reference, release 3.8.2. Python Software Foundation.) for later use.
 
-The classified raster is saved in integer format, along with a .csv class dictionary associating each integer value in the raster to its class as given in the training dataset.
+The classified raster is saved as a .GeoTIFF in integer format, along with a .csv class dictionary associating each integer value in the raster to its class as given in the training dataset.
+
+The predictive data used for our test case consists of reduced time-series of optical remote sensing images provided by ESA Sentinel-2, as well as topographical variables derived from the 5m resolution RGE ALTI® DEM provided by the french national institute for geographical information (IGN). 
+The training data consisted of spatial points labeled using the hierarchical EUNIS typology, provided by (...) 
 
 Installation
 -------------
@@ -56,8 +59,6 @@ Anaconda:
       # You can download and install anaconda with this link :
       https://www.anaconda.com/download/success
 
-
-
 Library Dependency
 ---------------
 Once the prerequisites have been installed, you can launch the next section via Anaconda Prompt
@@ -84,10 +85,10 @@ Getting Started
 ---------------
 If Using Notebook:
 
-      1. Download build from source.
-      2. Activate Conda Environnement Hiclass
-      3. Launching jupyter notebook
-      4. Lauching .ipynb
+      1. Download build from source by following the previous steps in the conda prompt terminal.
+      2. Activate Conda Environnement Hiclass with following command : activate Hiclass
+      3. Launching jupyter notebook from conda terminal with following command : jupyter notebook
+      4. Lauching via terminal Hiclass.ipynb 
 
 If Using Terminal:
 
@@ -95,10 +96,39 @@ If Using Terminal:
       2. Activate Conda Environnement Hiclass
       3. Enter variables in configuration file : configuration_RF_hiearchique.json
       4. Launching via terminal Hiclass.py
-     
 
-Remerciements 
+     
+Simplified usage with notebook : 
+---------------
+For those unfamiliar with the use of git, it is possible to avoid it by typing the following in the conda prompt :  
+
+```
+conda create --name Hiclass python=3.8 --yes 
+
+activate Hiclass
+
+pip install hiclass numpy pandas geopandas matplotlib rasterio scipy scikit-learn pyproj scipy notebook seaborn xarray rioxarray shap 
+
+jupyter notebook
+
+```
+
+Typing this in conda terminal will create a new environment named "Hiclass", activate it, install all necessary dependencies and open jupyter notebook. All that is left to do is download the .ipynb file, navigate to it through the jupyter interface and open it. 
+
+Acknowledgements 
 -------------
+Packages : 
+
+      - Hiclass - (Miranda, F.M., Köehnecke, N. and Renard, B.Y. (2023) 'HiClass: a Python Library for Local Hierarchical Classification Compatible with Scikit-learn', Journal of Machine Learning Research, 24(29), pp. 1–17. Available at: https://jmlr.org/papers/v24/21-1518.html.)
+
+      - Scikit-learn - (Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.)
+
+      - SHAP - (Lundberg, Scott M and Lee, Su-In, A Unified Approach to Interpreting Model Predictions, Advances in Neural Information Processing Systems, 30, p 4765-4774, Curran Associates Inc., 2017, available at : http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf)
+
+Modeling data used in test example (visible in .ipynb file) : 
+
+      - ESA Sentinel-2
+      - IGN RGE ALTI® 5m DEM
 
 Citation
 ---------
