@@ -7,7 +7,7 @@ This script can be used as a basic pipeline to perform hierarchical classificati
 and Random Forest classification model from Scikit-learn (...). The pipeline is given both as a .ipynb Jupyter notebook file allowing to follow the commented classification process step by step in an interactive way,
 or as a .py script allowing to run it directly from the console along with a .json file used to pass the file paths to read inputs and save outputs. 
 
-About Notebook Version
+About
 -------------------------
 
 As inputs, this pipeline takes a multiband raster map in .geoTIFF format (for example) and a dataframe including the hierarchical labels, which are given in separate columns, along with the extracted raster values for each sample. It is important that the columns containing raster values are given in the same order as the raster bands. 
