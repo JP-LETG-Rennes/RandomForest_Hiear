@@ -28,31 +28,32 @@ The classified raster is saved in integer format, along with a .csv class dictio
 Installation
 -------------
 
-For ease of use, we recommend that you first install git.
+For ease of use, we recommend that you first install git and Anaconda.
 
 Pre-requis:
 
       Git
       Anaconda or miniconda
 
-Windows:
+Git Windows:
 
       #For Windows distribution, you can install with this link :
       https://git-scm.com/download/win
 
-Linux (Debian/Ubuntu):
+Git Linux (Debian/Ubuntu):
 
       # You can install git with this command:
       sudo apt install git-all
       
-Linux (Fedora):
+Git Linux (Fedora):
       
       # You can install git with this command:
       sudo dnf install git-all
 
+Anaconda: 
 
-...
-...
+      # You can download and install anaconda with this link :
+      https://www.anaconda.com/download/success
 
 
 
