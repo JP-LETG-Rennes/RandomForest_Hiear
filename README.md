@@ -65,7 +65,7 @@ Once the prerequisites have been installed, you can launch the next section via 
 
 ```
 # Clone the repo
-git clone https://github.com/JP-LETG-Rennes/Rf_Hiearchique.git
+git clone https://github.com/JP-LETG-Rennes/RandomForest_Hiear.git
 cd RF_Hiearchique
 
 # Create a new python environnement with conda  
