@@ -1,4 +1,4 @@
-RandomForest Hiearchique (WETLANDS)
+Hiearchical Random Forest classification on raster data 
 ======
 
 Overview
