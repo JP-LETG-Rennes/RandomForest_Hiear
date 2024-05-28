@@ -3,8 +3,8 @@ RandomForest Hiearchique (WETLANDS)
 
 Overview
 -----
-This script can be used as a basic pipeline to perform hierarchical classification on georeferenced raster data using the Local classifier per parent node from the Hiclass package (...) 
-and Random Forest classification model from Scikit-learn (...). The pipeline is given both as a .ipynb Jupyter notebook file allowing to follow the commented classification process step by step in an interactive way,
+This script can be used as a basic pipeline to perform hierarchical classification on georeferenced raster data using the Local classifier per parent node from the Hiclass package (Miranda, F.M., Köehnecke, N. and Renard, B.Y. (2023) 'HiClass: a Python Library for Local Hierarchical Classification Compatible with Scikit-learn', Journal of Machine Learning Research, 24(29), pp. 1–17. Available at: https://jmlr.org/papers/v24/21-1518.html.) 
+and Random Forest classification model from Scikit-learn (Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.). The pipeline is given both as a .ipynb Jupyter notebook file allowing to follow the commented classification process step by step in an interactive way,
 or as a .py script allowing to run it directly from the console along with a .json file used to pass the file paths to read inputs and save outputs. 
 
 About
