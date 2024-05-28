@@ -65,7 +65,7 @@ Once the prerequisites have been installed, you can launch the next section via 
 
 ```
 # Clone the repo
-git clone https://github.com/JoLeClown/Rf_Hiearchique.git
+git clone https://github.com/JP-LETG-Rennes/Rf_Hiearchique.git
 cd RF_Hiearchique
 
 # Create a new python environnement with conda  
@@ -135,7 +135,7 @@ Citation
 If you use this script, please cite our paper:
 
 ```
-@misc{joleclown,
+@misc{JP-LETG-Rennes,
       title={Titre_PROVISOIRE},
       author={METTRE LES AUTEURS},
       year={ANNEE},
