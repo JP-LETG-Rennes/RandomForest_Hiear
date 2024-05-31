@@ -1,0 +1,51 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "author": [
+        {
+            "id": "https://orcid.org/0009-0006-8025-778X",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "LETG Rennes, Université Rennes 2"
+            },
+            "email": "liam.woollg@gmail.com",
+            "familyName": "Loizeau-Woollgar",
+            "givenName": "Liam"
+        },
+        {
+            "id": "_:author_2",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "LETG Rennes, Université Rennes 2"
+            },
+            "email": "julien.pellen@univ-rennes2.fr",
+            "familyName": "Pellen",
+            "givenName": "Julien"
+        },
+        {
+            "id": "https://orcid.org/0000-0001-9909-2627",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "LETG Rennes, Université Rennes 2"
+            },
+            "email": "laurence.moy@univ-rennes2.fr",
+            "familyName": "Hubert-Moy",
+            "givenName": "Laurence"
+        }
+    ],
+    "codeRepository": "https://github.com/JP-LETG-Rennes/RandomForest_Hiear/",
+    "dateCreated": "2024-05-31",
+    "dateModified": "2024-05-31",
+    "datePublished": "2024-05-31",
+    "description": "This script can be used to perform hierarchical classification of raster data using the local classifier per parent node algorithm in Hiclass package (Miranda et al., 2023) and the random forest classification algorithm in Scikit-learn package (Pedregosa et al., 2011).",
+    "downloadUrl": "https://github.com/JP-LETG-Rennes/RandomForest_Hiear",
+    "license": "https://spdx.org/licenses/MIT",
+    "name": "hierarchical_raster_classification",
+    "programmingLanguage": "Python 3",
+    "softwareRequirements": "https://github.com/JP-LETG-Rennes/RandomForest_Hiear/blob/main/requirements_env.txt",
+    "version": "1",
+    "developmentStatus": "active"
+}
