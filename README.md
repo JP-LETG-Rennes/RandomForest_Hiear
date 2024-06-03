@@ -1,4 +1,4 @@
-Hiearchical Random Forest classification on raster data 
+Hierarchical Random Forest classification on raster data 
 ======
 
 Overview
@@ -139,18 +139,28 @@ Each sample was automatically assigned to level 3 of the EUNIS typology based on
 References 
 -------------
       Chytrý, M., Tichý, L., Hennekens, S. M., Knollová, I., Janssen, J. A. M., Rodwell, J. S., Peterka, T., Marcenò, C., Landucci, F., Danihelka, J., Hájek, M., Dengler, J., Novák, P., Zukal, D., Jiménez-Alfaro, B., Mucina, L., Abdulhak, S., Abramova, L., Aćić, S., … Schaminée, J. H. J. (2021, 1 juin). EUNIS-ESy: Expert system for automatic classification of European vegetation plots to EUNIS habitats. Zenodo. https://doi.org/10.5281/zenodo.4812736
+      
       Davies, C. E., Moss, D. et Hill, M. O. (2004). EUNIS habitat classification revised 2004. Report to: European Environment Agency-European Topic Centre on Nature Protection and Biodiversity, 127‑143.
+      
       Gayet, G., Botcazou, F., Gibeault-Rousseau, J.-M., Hubert-Moy, L., Rapinel, S. et Lemercier, B. (2022). Field dataset of punctual observations of soil properties and vegetation types distributed along soil moisture gradients in France. Data in Brief, 45, 108632. https://doi.org/10.1016/j.dib.2022.108632
+      
       Hervé, J.-C. (2016). France. Dans C. Vidal, I. A. Alberdi, L. Hernández Mateo et J. J. Redmond (dir.), National Forest Inventories: Assessment of Wood Availability and Use (p. 385‑404). Springer International Publishing. https://doi.org/10.1007/978-3-319-44015-6_20
+      
       Miranda, F. M., Köhnecke, N. et Renard, B. Y. (2023). Hiclass: a python library for local hierarchical classification compatible with scikit-learn. Journal of Machine Learning Research, 24(29), 1‑17.
+      
       Panhelleux, L., Rapinel, S., Lemercier, B., Gayet, G. et Hubert-Moy, L. (2023). A 5 m dataset of digital terrain model derivatives across mainland France. Data in Brief, 109369. https://doi.org/10.1016/j.dib.2023.109369
+      
       Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M. et Duchesnay, É. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12(Oct), 2825‑2830.
+      
       Pesaresi, S., Mancini, A., Quattrini, G. et Casavecchia, S. (2022). Functional analysis for habitat mapping in a special area of conservation using sentinel-2 time-series data. Remote Sensing, 14(5), 1179.
+      
       Poncet, L. (2013). La diffusion de l’information sur la biodiversité en France. L’exemple de l’inventaire national du patrimoine naturel (INPN). Netcom. Réseaux, communication et territoires, (27‑1/2), 181‑189.
 
 Citation
 ---------
 If you use this script, please cite our paper:
+
+Liam Loizeau-Woollgar, Julien Pellen, Laurence Hubert-Moy. hierarchical_raster_classification. 2024. hal-04596517
 
 ```
 @misc{JP-LETG-Rennes,
