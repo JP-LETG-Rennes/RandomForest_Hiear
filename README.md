@@ -164,7 +164,7 @@ Liam Loizeau-Woollgar, Julien Pellen, Laurence Hubert-Moy. Hierarchical Random F
 
 ```
 @misc{JP-LETG-Rennes,
-      title={ Hierarchical Random Forest classification on raster data},
+      title={Hierarchical Random Forest classification on raster data},
       author={Liam Loizeau-Woollgar, Julien Pellen, Laurence Hubert-Moy},
       year={2024},
       eprint={hal-04596517},
