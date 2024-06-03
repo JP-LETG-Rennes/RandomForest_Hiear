@@ -160,14 +160,14 @@ Citation
 ---------
 If you use this script, please cite our paper:
 
-Liam Loizeau-Woollgar, Julien Pellen, Laurence Hubert-Moy. hierarchical_raster_classification. 2024. hal-04596517
+Liam Loizeau-Woollgar, Julien Pellen, Laurence Hubert-Moy. Hierarchical Random Forest classification on raster data. 2024. hal-04596517
 
 ```
 @misc{JP-LETG-Rennes,
-      title={Titre_PROVISOIRE},
-      author={METTRE LES AUTEURS},
-      year={ANNEE},
-      eprint={DOI A METTRE},
+      title={ Hierarchical Random Forest classification on raster data},
+      author={Liam Loizeau-Woollgar, Julien Pellen, Laurence Hubert-Moy},
+      year={2024},
+      eprint={hal-04596517},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
