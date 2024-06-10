@@ -158,7 +158,7 @@ References
 
 Citation
 ---------
-If you use this script, please cite our paper:
+If you use this script, please cite us :
 
 Liam Loizeau-Woollgar, Julien Pellen, Laurence Hubert-Moy. Hierarchical Random Forest classification on raster data. 2024. hal-04596517
 
